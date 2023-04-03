@@ -1,11 +1,4 @@
-/*
- * Copyright (c) 2023 Your Company Name
- * All rights reserved.
- */
-
-import React from 'react';
-
-function Header() {
+function Header () {
   return (
     <header>
       <h1>Welcome to my website!</h1>
