@@ -1,10 +1,17 @@
-function Main () {
+/*
+ * Copyright (c) 2023 Your Company Name
+ * All rights reserved.
+ */
+import React from 'react';
+
+function Main() {
+    const country = 'Nigeria';
   return (
     <main>
       <section>
         <h2>About Us</h2>
         <p>
-          We are a small team of web developers based in the United States. We
+          We are a small team of web developers based in {country}. We
           specialise in creating modern and responsive websites for businesses
           and individuals.
         </p>

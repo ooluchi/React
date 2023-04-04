@@ -1,26 +1,70 @@
-Question The following are features of react
-Component-based architecture: React is built around the idea of breaking down the UI into reusable components. This allows developers to build complex UIs in a modular way, making it easier to manage and maintain code.
-Virtual DOM: React uses a virtual DOM, which is a lightweight representation of the actual DOM. The virtual DOM is used to efficiently update only the parts of the UI that have changed, rather than re-rendering the entire UI. This helps to optimize performance and reduce rendering times.
-JSX: React uses JSX, a syntax extension that allows developers to write HTML-like code directly within their JavaScript code. JSX makes it easier to create and manage components, as well as improving code readability.
-Unidirectional data flow: React follows a unidirectional data flow architecture, where data flows in a single direction from parent components to child components. This makes it easier to manage and update the state of the UI, as well as reducing the risk of bugs and errors.
-React Native: React can be used to build native mobile apps using React Native. React Native allows developers to write code in JavaScript and compile it to native code for iOS and Android platforms. This makes it easier to build cross-platform mobile apps using a single codebase, reducing development time and cost.
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-Question 3
-Faster rendering: React's virtual DOM helps to improve the performance of web applications by rendering only the parts of the UI that have changed. 
-Reusable components: React's component-based architecture allows developers to create reusable components that can be used across multiple applications. 
-SEO-friendly: React is SEO-friendly because it can be easily configured to render HTML on the server side, which can be indexed by search engines. This helps to improve the discoverability and visibility of web applications on the internet.
-Large community and ecosystem: React has a large and active community of developers, which has resulted in the creation of a rich ecosystem of libraries, tools, and resources. 
-Cross-platform development: React can be used to build web applications, as well as native mobile applications using React Native.
+In the project directory, you can run:
 
-Question 4
-The creator of React is Jordan Walke.
-Facebook owns React.
+### `npm start`
 
-Question 5
-Notable differences between HTML and JSX include:
-Syntax: HTML uses angle brackets to denote tags, while JSX uses a similar syntax but allows developers to embed JavaScript expressions directly within the markup.
-Attributes: HTML uses attributes to set properties of elements, while JSX uses props (short for "properties") to pass data to components.
-Directives: HTML uses directives such as class and style to set CSS styles and classes, while JSX uses JavaScript objects to set styles and class names.
-Browsers can't read JSX because it's not valid JavaScript syntax. JSX needs to be transpiled into regular JavaScript code that browsers can understand, which is typically done using a build tool such as Babel.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
